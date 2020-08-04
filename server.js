@@ -1,6 +1,7 @@
 const express = require('express');
 const { animals } = require('./data/animals');
 
+// Just a comment for fun
 const app = express();
 
 function filterByQuery(query, animalsArray) {
