@@ -69,7 +69,7 @@ function validateAnimal(animal) {
     if (!animal.name || typeof animal.name !== 'string') {
         return false;
     }
-    if (!animal.species || typeof animal.Species !== 'string') {
+    if (!animal.species || typeof animal.species !== 'string') {
         return false;
     }
     if (!animal.diet || typeof animal.diet !== 'string') {
@@ -114,6 +114,14 @@ app.post('/api/animals', (req, res) => {
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, './public/index.html'));
+});
+
+app.get('/animals', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/animals.html'));
+});
+
+app.get('/zookeepers', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/zookeepers.html'));
 });
 
 app.listen(PORT, () => {

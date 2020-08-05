@@ -117,6 +117,36 @@
         "hungry"
       ],
       "id": "11"
+    },
+    {
+      "name": "Charles",
+      "species": "monster",
+      "diet": "folivore",
+      "personalityTraits": [
+        "hungry",
+        "zany"
+      ],
+      "id": "12"
+    },
+    {
+      "name": "Boobface",
+      "species": "monster",
+      "diet": "folivore",
+      "personalityTraits": [
+        "hungry",
+        "zany"
+      ],
+      "id": "13"
+    },
+    {
+      "name": "Maurice",
+      "species": "Monkey",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "hungry",
+        "zany"
+      ],
+      "id": "14"
     }
   ]
 }
